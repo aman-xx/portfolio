@@ -1,0 +1,49 @@
+*{
+  font-family:  sans-serif;;
+}
+:root
+{
+    --yellow: #112B3C;
+    --orange : #ca6f1f;
+    --black : #205375;
+    --greyu: rgb(224, 133, 133);
+    --gray : #346382;
+    --blueCard : #db8044;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(156, 77, 21, 0.736);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+
+.button {
+    background: linear-gradient(180deg, #205375 26.71%, #112B3C 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(31, 90, 139, 0.227);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+  }
+  
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid var(--black);
+    color: var(--black);
+  }
+  @media screen and (max-width: 480px) {
+    .App {
+      padding: 0.5rem 1rem;
+
+    }
+  }
+
+  
+
+  
